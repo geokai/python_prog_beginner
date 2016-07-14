@@ -7,7 +7,7 @@
 
 import clear
 
-clear.scrn_clr()
+clear.screen_clr()
 
 print ()
 print ("Useless Trivia Game")
@@ -39,5 +39,5 @@ sun_weight = weight * 27.1
 print ("On the sun, you'd weigh", sun_weight, "(but, er... not for long).")
 
 input ("\n\nPress the enter key to exit...")
-clear.scrn_clr()
+clear.screen_clr()
 

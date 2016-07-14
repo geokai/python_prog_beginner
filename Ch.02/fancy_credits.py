@@ -5,7 +5,7 @@ import clear
 # Fancy Credits
 # Demonstrates escape sequences
 
-clear.scrn_clr ()
+clear.sceern_clr ()
 
 print ("\t\t\tFancy Credits")
 
@@ -23,4 +23,4 @@ print ("\a")
 input ("\n\nPress the enter key to exit...")
 print ()
 print ()
-clear.scrn_clr ()
+clear.sceern_clr ()

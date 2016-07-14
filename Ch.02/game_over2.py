@@ -4,26 +4,13 @@
 
 # Demonstrates the use of quotes in strings
 
-
-# import os
 import clear
 
-# def scrn_clr ():
-#     osname = os.name
-#     if osname == 'posix':
-#         os.system('clear')
-#     elif osname == 'nt' or osname == 'dos':
-#         os.system('cls')
-#     else:
-#         print("\n" * 30)
-#     return osname
 
-
-
-clear.scrn_clr ()
+clear.screen_clr ()
 print ()
 
-# term_name = scrn_clr ()
+# term_name = screen_clr ()
 # print (term_name)
 
 print ("Program 'Game Over' 2.0")
@@ -59,5 +46,5 @@ print (
 input ("\n\nPress the enter key to exit...")
 print ()
 print ()
-clear.scrn_clr ()
+clear.screen_clr ()
 

@@ -5,7 +5,7 @@
 
 import clear
 
-clear.scrn_clr()
+clear.screen_clr()
 print (
 """ 
        Trust Fund Buddy 
@@ -33,5 +33,5 @@ total = car + rent + jet + gifts + food + staff + guru + games
 print ("\nGrand Total:", total)
 
 input ("\n\nPress the enter key to exit...")
-clear.scrn_clr()
+clear.screen_clr()
 
