@@ -1,6 +1,9 @@
+# this module determines the operating system type and provides the
+# appropriate terminal scroll-back clearing (screen clear):
+
 import os
 
-def scrn_clr ():
+def sceern_clr ():
     osname = os.name
     if osname == 'posix':
         os.system('clear')
