@@ -4,6 +4,8 @@
 
 # Demonstrates the use of quotes in strings
 
+import sys
+sys.path.insert(0, "lib/modules")
 import clear
 
 
