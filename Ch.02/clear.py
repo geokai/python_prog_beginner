@@ -3,7 +3,7 @@
 
 import os
 
-def sceern_clr ():
+def screen_clr ():
     osname = os.name
     if osname == 'posix':
         os.system('clear')
@@ -12,3 +12,7 @@ def sceern_clr ():
     else:
         print("\n" * 30)
     return osname
+
+if __name__ == "__main__":
+    screen_clr ()
+
