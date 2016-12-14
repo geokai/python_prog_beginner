@@ -5,7 +5,7 @@ import clear
 # Fancy Credits
 # Demonstrates escape sequences
 
-clear.sceern_clr ()
+clear.screen_clr ()
 
 print ("\t\t\tFancy Credits")
 
