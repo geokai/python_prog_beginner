@@ -1,5 +1,7 @@
 #!/usr/local/bin/python3
 
+import sys
+sys.path.insert(0, "lib/modules")
 import clear
 
 # Fancy Credits
@@ -23,4 +25,4 @@ print ("\a")
 input ("\n\nPress the enter key to exit...")
 print ()
 print ()
-clear.sceern_clr ()
+clear.screen_clr ()
