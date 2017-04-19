@@ -3,6 +3,8 @@
 # Trust Fund Buddy - Bad
 # Demonstrates a logical error:
 
+import sys
+sys.path.insert(0, "lib/modules")
 import clear
 
 clear.screen_clr()

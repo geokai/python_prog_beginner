@@ -5,6 +5,8 @@
 # Gets personal information form the user and then
 # prints true but useless information about him or her:
 
+import sys
+sys.path.insert(0, "lib/modules")
 import clear
 
 clear.screen_clr()
